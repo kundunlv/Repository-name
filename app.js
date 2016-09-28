@@ -1,5 +1,5 @@
 var main;
-mistake 
+// No mistakes here, sir!
 main = function () {
     $('.dropdown-toggle').click(function () {
         $('.dropdown-menu').toggle();
