@@ -41,9 +41,9 @@ main = function () {
         currentSlide.fadeOut(600).removeClass('active-slide');
         prevSlide.fadeIn(600).addClass('active-slide');
 
-
+        //Fixed
         currentDot.removeClass('active-dot');
-        prevDt.addClass('active-dot');
+        prevDot.addClass('active-dot');
 
     });
 
