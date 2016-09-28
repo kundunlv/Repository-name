@@ -37,13 +37,13 @@ main = function () {
             prevSlide = $('.slide').last();
             prevDot = $('.dot').last();
         }
-
+//find one mistake plz below:
         currentSlide.fadeOut(600).removeClass('active-slide');
         prevSlide.fadeIn(600).addClass('active-slide');
 
 
         currentDot.removeClass('active-dot');
-        prevDot.addClass('active-dot');
+        prevDt.addClass('active-dot');
 
     });
 
